@@ -1,10 +1,10 @@
 # Beginning-CallKit-SwiftUI
 This public repository provides basic CallKit project in SwiftUI
 
-[Image - Make Call](https://github.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/blob/master/screenshots/callkitUI.PNG)
+[Image - Make Call](https://raw.githubusercontent.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/master/screenshots/makeCall.PNG)
 
-[Image - Handle Call](https://github.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/blob/master/screenshots/handleCall.PNG)
+[Image - Handle Call](https://raw.githubusercontent.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/master/screenshots/handleCall.PNG)
 
-[Image - CallKit UI](https://github.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/blob/master/screenshots/callkitUI.PNG)
+[Image - CallKit UI](https://raw.githubusercontent.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/master/screenshots/callkitUI.PNG)
 
-[Image - Incoming Call](https://github.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/blob/master/screenshots/incomingCall.PNG)
+[Image - Incoming Call](https://raw.githubusercontent.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/master/screenshots/incomingCall.PNG)
