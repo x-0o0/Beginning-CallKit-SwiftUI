@@ -72,19 +72,3 @@ extension AppDelegate: PKPushRegistryDelegate {
         completion()
     }
 }
-
-// MARK: - SendBirdDelegate
-// didStartRinging
-/**
- ````
- func didStartRinging(_ call: DirectCall) {
- call.delegate = self
- 
- guard let providerDelegate = self.providerDelegate else { return }
- guard !providerDelegate.callManager.calls.contains(where: { $0 === call }) else { return }
- 
- // Display the incoming call to the user
- providerDelegate.reportIncomingCall(call)
- }
- ```
- */

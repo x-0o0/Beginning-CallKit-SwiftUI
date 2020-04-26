@@ -19,7 +19,6 @@
 		A92BB84724531DF8004C3E08 /* CXCallUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB84024531DF8004C3E08 /* CXCallUpdate.swift */; };
 		A92BB84824531DF8004C3E08 /* ProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB84124531DF8004C3E08 /* ProviderDelegate.swift */; };
 		A92BB84924531DF8004C3E08 /* CXProvider+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB84224531DF8004C3E08 /* CXProvider+Sample.swift */; };
-		A92BB84B24531DF8004C3E08 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB84424531DF8004C3E08 /* Keys.swift */; };
 		A92BB84F245410E6004C3E08 /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB84E245410E6004C3E08 /* DialView.swift */; };
 		A92BB8512454110A004C3E08 /* CallInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB8502454110A004C3E08 /* CallInterfaceView.swift */; };
 		A92BB85324541133004C3E08 /* OutgoingInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92BB85224541133004C3E08 /* OutgoingInterfaceView.swift */; };
@@ -41,7 +40,6 @@
 		A92BB84024531DF8004C3E08 /* CXCallUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXCallUpdate.swift; sourceTree = "<group>"; };
 		A92BB84124531DF8004C3E08 /* ProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderDelegate.swift; sourceTree = "<group>"; };
 		A92BB84224531DF8004C3E08 /* CXProvider+Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CXProvider+Sample.swift"; sourceTree = "<group>"; };
-		A92BB84424531DF8004C3E08 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		A92BB84D2453480A004C3E08 /* CallKit-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CallKit-SwiftUI.entitlements"; sourceTree = "<group>"; };
 		A92BB84E245410E6004C3E08 /* DialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
 		A92BB8502454110A004C3E08 /* CallInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallInterfaceView.swift; sourceTree = "<group>"; };
@@ -84,12 +82,9 @@
 				A92BB82624531A2F004C3E08 /* AppDelegate.swift */,
 				A92BB82824531A2F004C3E08 /* SceneDelegate.swift */,
 				A92BB82A24531A2F004C3E08 /* ContentView.swift */,
-				A92BB84E245410E6004C3E08 /* DialView.swift */,
-				A92BB8502454110A004C3E08 /* CallInterfaceView.swift */,
-				A92BB85224541133004C3E08 /* OutgoingInterfaceView.swift */,
-				A92BB85424541163004C3E08 /* IncomingInterfaceView.swift */,
-				A92BB83A24531D39004C3E08 /* Data.Extensions.swift */,
+				A9B530292455D51400003467 /* CallViews */,
 				A92BB84C24531E00004C3E08 /* CallKit */,
+				A9B5302A2455D53300003467 /* Extensions */,
 				A92BB82C24531A30004C3E08 /* Assets.xcassets */,
 				A92BB83124531A30004C3E08 /* LaunchScreen.storyboard */,
 				A92BB83424531A30004C3E08 /* Info.plist */,
@@ -115,9 +110,27 @@
 				A92BB84224531DF8004C3E08 /* CXProvider+Sample.swift */,
 				A92BB83F24531DF8004C3E08 /* CXProviderConfiguration+Sample.swift */,
 				A92BB83E24531DF8004C3E08 /* CallManager.swift */,
-				A92BB84424531DF8004C3E08 /* Keys.swift */,
 			);
 			path = CallKit;
+			sourceTree = "<group>";
+		};
+		A9B530292455D51400003467 /* CallViews */ = {
+			isa = PBXGroup;
+			children = (
+				A92BB84E245410E6004C3E08 /* DialView.swift */,
+				A92BB8502454110A004C3E08 /* CallInterfaceView.swift */,
+				A92BB85224541133004C3E08 /* OutgoingInterfaceView.swift */,
+				A92BB85424541163004C3E08 /* IncomingInterfaceView.swift */,
+			);
+			path = CallViews;
+			sourceTree = "<group>";
+		};
+		A9B5302A2455D53300003467 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A92BB83A24531D39004C3E08 /* Data.Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +209,6 @@
 				A92BB8512454110A004C3E08 /* CallInterfaceView.swift in Sources */,
 				A92BB82924531A2F004C3E08 /* SceneDelegate.swift in Sources */,
 				A92BB82B24531A2F004C3E08 /* ContentView.swift in Sources */,
-				A92BB84B24531DF8004C3E08 /* Keys.swift in Sources */,
 				A92BB84624531DF8004C3E08 /* CXProviderConfiguration+Sample.swift in Sources */,
 				A92BB84924531DF8004C3E08 /* CXProvider+Sample.swift in Sources */,
 				A92BB84724531DF8004C3E08 /* CXCallUpdate.swift in Sources */,
@@ -346,14 +358,16 @@
 				DEVELOPMENT_TEAM = 77CD4KLN3Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "CallKit-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesung.CallKit-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -367,14 +381,16 @@
 				DEVELOPMENT_TEAM = 77CD4KLN3Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "CallKit-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesung.CallKit-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

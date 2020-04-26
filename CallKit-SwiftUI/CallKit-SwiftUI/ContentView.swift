@@ -1,6 +1,5 @@
 //
 //  ContentView.swift
-//  CallKit-SwiftUI
 //
 //  Created by Jaesung Lee on 2020/04/24.
 //  Copyright © 2020 SweetLab. All rights reserved.
