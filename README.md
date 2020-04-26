@@ -1,6 +1,7 @@
 # Beginning-CallKit-SwiftUI
 This public repository provides basic CallKit project in SwiftUI
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sendbird/jaesung-wwdc/Beginning-CallKit-SwiftUI/master/LICENSE.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jaesung-wwdc/Beginning-CallKit-SwiftUI/blob/master/LICENSE)
 
 ## Introduction
 
